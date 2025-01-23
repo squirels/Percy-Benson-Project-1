@@ -1,0 +1,83 @@
+body {
+    background-image: url(./media/istockphoto-1358440425-612x612.jpg);
+    background-size: cover;
+}
+
+* {
+    color: aliceblue;
+}
+
+.Header-section {
+    background-image: url(./media/stars.jpg);
+    background-size: contain;
+    display: flex;
+    border-style: groove;
+    border-color: aliceblue;
+}
+
+section, .navigation{
+    background-image: url(./media/a\ scary\ forest\ at\ night.png);
+    background-size: cover;
+    border-style: groove;
+    border-color: aliceblue;
+    margin: 4rem;
+}
+
+h2,h3 {
+    text-align: top;
+}
+
+
+ul, a {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0.25rem 2rem;
+    list-style: none;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    border-style: solid;
+    border-color: aliceblue;
+    margin: 4rem;
+    background-image: url(./media/istockphoto-1358440425-612x612.jpg);
+    background-size:contain;
+}
+
+.h2pages {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    padding: 4px;
+}
+
+img {
+    padding: 40px;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+#back-to-top {
+    background-color: black;
+    position:fixed;
+    bottom:.5rem;
+    float:right;
+    right:45%;
+    max-width: fit-content;
+    width: 50%;
+}
