@@ -1,29 +1,35 @@
 body {
-    background-image: url(./media/istockphoto-1358440425-612x612.jpg);
+    background-image: url(./media/a\ scary\ forest\ at\ night.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 * {
     color: aliceblue;
+    font-family: "Merienda";
 }
 
 .Header-section {
     background-image: url(./media/stars.jpg);
-    background-size: contain;
+    background-size: cover;
     display: flex;
+    justify-content: center;
     border-style: groove;
     border-color: aliceblue;
+    text-decoration: underline;
 }
 
 section, .navigation{
-    background-image: url(./media/a\ scary\ forest\ at\ night.png);
+    background-image: url(./media/creepy-nightmares-scary-backgrounds-concept-highly-detailed-plain-background-featuring-eerie-elements-creating-spooky-332649548.webp);
+    background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
     border-style: groove;
     border-color: aliceblue;
     margin: 4rem;
 }
 
-h2,h3 {
+h1 {
     text-align: top;
 }
 
@@ -45,7 +51,7 @@ article {
     border-color: aliceblue;
     margin: 4rem;
     background-image: url(./media/istockphoto-1358440425-612x612.jpg);
-    background-size:contain;
+    background-size: cover;
 }
 
 .h2pages {
@@ -55,6 +61,7 @@ article {
 
 p {
     padding: 4px;
+    font-family: "Merienda";
 }
 
 img {
@@ -67,8 +74,8 @@ a:visited {
 
 footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: baseline;
     margin: 2rem;
 }
 
@@ -80,4 +87,10 @@ footer {
     right:45%;
     max-width: fit-content;
     width: 50%;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 53px #fff); 
 }
